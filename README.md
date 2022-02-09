@@ -39,8 +39,8 @@ with no spaces between ciphertexts).
 file contains 1 hash and 4 ciphertexts)
 2. First run the Bob code (./bob) and then the Alice code (./alice).
 Bob part of the code:
-1. Bob reads the shared key from “sharedSecret.txt” file.
+1. Bob reads the shared key from sharedSecret.txt file.
 2. Bob computes the corresponding plaintext of the received ciphertext. Afterwards, writes 
-the plaintext in ``BobPlaintext.txt" file.
-3. Bob hashes the plaintext and compares it with the received hash. Print ``Hashes 
-successfully match" and write the hash in ``Bob_h.txt" file.
+the plaintext in BobPlaintext.txt file.
+3. Bob hashes the plaintext and compares it with the received hash. Print Hashes 
+successfully match and write the hash in Bob_h.txt file.
